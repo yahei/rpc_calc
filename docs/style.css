@@ -1,0 +1,40 @@
+
+html {
+  touch-action: manipulation;
+}
+
+.stack {
+  line-height: 1.5;
+  height: calc(1.5em * 4);
+  min-height: calc(1.5em * 4);
+  overflow: visible scroll;
+  background-color: #eee8d5;
+  border: #839496 1px solid;
+  text-align: right;
+  width: 192px;
+  margin: auto;
+  font-weight: bold;
+  padding : 0px 10px;
+  font-size: 18px;
+  resize: vertical;
+}
+
+.buttons {
+  text-align: center;
+}
+
+.button_row {
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
+  border-collapse: separate;
+  border-spacing: 2px 1px;
+}
+
+.button {
+  font-size: 20px;
+  display: table-cell;
+  border: solid 1px #999;
+  width:  50px;
+  height: 50px;
+}
